@@ -1,0 +1,9 @@
+@import '../../theme.scss';
+
+.submit-button {
+  cursor: pointer;
+
+  &.loading {
+    cursor: wait;
+  }
+}
